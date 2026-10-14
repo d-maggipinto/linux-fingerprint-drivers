@@ -1,6 +1,6 @@
 # Devices with no known fix (contributor gap-map)
 
-The 101 USB fingerprint sensors below are on the official libfprint
+The 100 USB fingerprint sensors below are on the official libfprint
 [Unsupported Devices](https://gitlab.freedesktop.org/libfprint/wiki/-/wikis/Unsupported-Devices)
 list and have **no working driver here or upstream**. Devices already covered by
 an entry in [`devices/`](../devices/) (working or WIP) are omitted - check the
@@ -66,7 +66,6 @@ VCSFW driver (MR [!579](https://gitlab.freedesktop.org/libfprint/libfprint/-/mer
 | `06cb:00da` | ThinkPad E14 |  |
 | `06cb:00dc` | Acer Spin 3, SP313-51N |  |
 | `06cb:00e4` | Acer ConceptD CC314-72 |  |
-| `06cb:00fd` | Lenovo Thinkbook 15 G13 |  |
 | `0a5c:5801` | Dell Latitude E6530 |  |
 | `0a5c:5802` | Dell Precision M4800 |  |
 | `0a5c:5805` | Dell Latitude e5470 |  |

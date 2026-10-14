@@ -77,6 +77,7 @@ appear in `lsusb` at all.
 | 10a5:9800            | FPC fpcmoh (match-on-host) | Working | Fedora, Arch              |
 | 2541:0236 (9711)     | Chipsailing CS9711      | Working | Arch (GPD Win Max 2, AYANEO 2) |
 | 06cb:00ff (+00c9/00d1/00e7/0124/0169) | Synaptics Tudor MiS | Working | Arch, Fedora, Ubuntu (community routes) |
+| 06cb:00fd                              | Synaptics Tudor MiS (IdeaPad pkg, v139) | Working | Ubuntu 26.04 |
 | 2808:9e65            | FocalTech               | Partial | Undocumented (unconfirmed)  |
 | gxfp5187 (SPI)       | Goodix GXFP5187         | Working | Ubuntu 24.04 ([entry](devices/gxfp5187/)) |
 
@@ -114,7 +115,7 @@ your authentication path.
 | 04f3:0c4b | ELAN | Lenovo TOD blob (`libfprint-2-tod1-elan`); ThinkPad E14 Gen 4 | [entry](devices/04f3:0c4b/) |
 | 0a5c:58xx / 586x | Broadcom | Dell/Canonical TOD blob, alongside the open MR | [entry](devices/broadcom-controlvault3/) |
 | 10a5:9201 | FPC | `fingerprint-ocv`, standalone AGPL-3.0 daemon | [entry](devices/10a5:9201/) |
-| 06cb:00ff family | Synaptics Tudor | relinked vendor Windows driver, *or* a fully open native driver | [entry](devices/06cb:00ff/) |
+| 06cb:00ff family, 06cb:00fd | Synaptics Tudor | relinked vendor Windows driver, *or* a fully open native driver | [00ff entry](devices/06cb:00ff/), [00fd entry](devices/06cb:00fd/) |
 
 Still genuinely out of scope: sensors where nobody has published any working
 route at all (those live in the [gap-map](docs/unsupported-devices.md)), and

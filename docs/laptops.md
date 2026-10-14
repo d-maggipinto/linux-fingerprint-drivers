@@ -17,7 +17,7 @@ lsusb        # find the reader, e.g. 27c6:55b4
 then look it up in the [main README](../README.md), or run
 `./tools/detect.sh` to have it matched for you.
 
-41 model listings map to a catalogued sensor; the rest are on the
+43 model listings map to a catalogued sensor; the rest are on the
 gap-map with no known fix, and a protocol dump for any of them is welcome.
 
 **Adding your machine** is the single most useful small contribution here.
@@ -35,8 +35,10 @@ in practice), **Stale** (abandoned lead), **No known fix**.
 
 | Laptop model | USB ID | Sensor | Status | Where to go |
 |--------------|--------|--------|--------|-------------|
+| Lenovo IdeaPad 3 14ITL6 | `06cb:00fd` | Synaptics Tudor match-in-sensor | Working | [entry](../devices/06cb:00fd/) |
 | Lenovo IdeaPad Flex 5 14ARE05 | `27c6:55b4` | Goodix GF3268 | Working | [entry](../devices/27c6:55b4/) |
 | Lenovo IdeaPad Flex 5 16ABR8 | `27c6:55b4` | Goodix GF3268 | Working | [entry](../devices/27c6:55b4/) |
+| Lenovo ThinkBook 15 G13 | `06cb:00fd` | Synaptics Tudor match-in-sensor | Working | [entry](../devices/06cb:00fd/) |
 | Lenovo ThinkPad E14 Gen 5 | `10a5:9800` | FPC Match-on-Host / fpcmoh | Working | [entry](../devices/10a5:9800/) |
 | Lenovo ThinkBook | `27c6:550a` | Goodix 550a - vendor TOD blob route | Working (vendor blob) | [entry](../devices/27c6:550a/) |
 | Lenovo ThinkPad E14 | `27c6:550a` | Goodix 550a - vendor TOD blob route | Working (vendor blob) | [entry](../devices/27c6:550a/) |
@@ -48,7 +50,6 @@ in practice), **Stale** (abandoned lead), **No known fix**.
 | Lenovo ThinkPad X1 Carbon Gen 6 | `138a:0097` | Validity/Synaptics VFS0097 (VCSFW) | WIP | [entry](../devices/138a:0097/) |
 | Ideapad 5 | `27c6:55a2` | - | No known fix | [gap-map](unsupported-devices.md) |
 | Lenovo IdeaPad 3-15ARE05 | `04f3:0c57` | - | No known fix | [gap-map](unsupported-devices.md) |
-| Lenovo Thinkbook 15 G13 | `06cb:00fd` | - | No known fix | [gap-map](unsupported-devices.md) |
 | Lenovo ThinkPad E14 | `27c6:5503` | - | No known fix | [gap-map](unsupported-devices.md) |
 | lenovo Yoga 720 | `06cb:0081` | - | No known fix | [gap-map](unsupported-devices.md) |
 | Lenovo Yoga 9 14IAP7 | `27c6:550c` | - | No known fix | [gap-map](unsupported-devices.md) |

@@ -1,0 +1,16 @@
+Device: Synaptics Tudor match-in-sensor (USB 06cb:00fd)
+Part of the family covered in devices/06cb:00ff/
+
+Route: relinking of the vendor Windows driver
+  Project: Popax21/synaTudor (LGPL-2.1)
+  https://github.com/Popax21/synaTudor
+  The relinked Synaptics Windows driver itself is proprietary and is not
+  distributed by that project or by this hub.
+
+06cb:00fd bring-up (IdeaPad driver package, v139 DLL names, id + udev rule) and
+the sensor-independent relinker fixes:
+  Author: Manasi-ish
+  Fork/branch: https://github.com/Manasi-ish/synaTudor (branch 06cb-00fd-support)
+  Upstream PRs: Popax21/synaTudor#70 (generic relinker fixes),
+                Popax21/synaTudor#71 (06cb:00fd support)
+  Write-up: https://github.com/Manasi-ish/synaptics-06cb-00fd-linux
