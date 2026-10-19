@@ -1,0 +1,17 @@
+Device: Synaptics Tudor match-in-sensor (USB 06cb:00eb)
+Part of the family covered in devices/06cb:00ff/
+
+Route: native reverse-engineered driver (synatlsmoc)
+  Author: vojtapl
+  https://github.com/vojtapl/synaTudorMiS
+  Companion libfprint tree: https://github.com/vojtapl/libfprint
+  License: LGPL-2.1
+
+06cb:00eb bring-up, security review and fixes of the synatlsmoc driver:
+  Author: d-maggipinto
+  Fork/branches: https://github.com/d-maggipinto/libfprint
+    (synatlsmoc-add-00eb, synatlsmoc-security-fixes)
+  Upstream PRs: vojtapl/libfprint#6 (06cb:00eb id), vojtapl/libfprint#7
+                (TLS handshake gate, write_dft UAF, pairing-save order),
+                vojtapl/synaTudorMiS (fprintd patch: 0600 blob)
+  Write-up: https://github.com/d-maggipinto/dynabook-l50g-fingerprint-linux

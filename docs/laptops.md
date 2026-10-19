@@ -17,7 +17,7 @@ lsusb        # find the reader, e.g. 27c6:55b4
 then look it up in the [main README](../README.md), or run
 `./tools/detect.sh` to have it matched for you.
 
-43 model listings map to a catalogued sensor; the rest are on the
+44 model listings map to a catalogued sensor; the rest are on the
 gap-map with no known fix, and a protocol dump for any of them is welcome.
 
 **Adding your machine** is the single most useful small contribution here.
@@ -202,6 +202,7 @@ in practice), **Stale** (abandoned lead), **No known fix**.
 
 | Laptop model | USB ID | Sensor | Status | Where to go |
 |--------------|--------|--------|--------|-------------|
+| Dynabook Satellite Pro L50-G | `06cb:00eb` | Synaptics Tudor match-in-sensor | Working | [entry](../devices/06cb:00eb/) |
 | Clevo Laptops | `06cb:00a8` | - | No known fix | [gap-map](unsupported-devices.md) |
 | realme book MP | `27c6:5e0a` | - | No known fix | [gap-map](unsupported-devices.md) |
 | Teclast F6 Pro | `27c6:5740` | - | No known fix | [gap-map](unsupported-devices.md) |
